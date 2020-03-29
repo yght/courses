@@ -10,6 +10,8 @@ namespace first
     {
         static void Main(string[] args)
         {
+
+            // You missed ; please put it and test again.
             Console.WriteLine("Hello Arian ")
         }
     }
