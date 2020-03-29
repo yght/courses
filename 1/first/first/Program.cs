@@ -12,7 +12,7 @@ namespace first
         {
 
             // You missed ; please put it and test again.
-            Console.WriteLine("Hello Arian ")
+            Console.WriteLine("Hello Arian ");
         }
     }
 }
