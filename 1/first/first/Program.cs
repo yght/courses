@@ -10,7 +10,7 @@ namespace first
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("First ");
+            Console.WriteLine("Hello Arian ");
         }
     }
 }
