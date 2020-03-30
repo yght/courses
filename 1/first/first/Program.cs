@@ -17,9 +17,11 @@ namespace first
             if (name == "")
             {
                 Console.WriteLine("you have to write your name");
-                return;
-            }
-            Console.WriteLine("hello :" + name);
+                    return ;
+             }
+                
+
+                Console.WriteLine("hello :" + name);
             }
         }
 
