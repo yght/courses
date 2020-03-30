@@ -10,20 +10,20 @@ namespace first
     {
         static void Main(string[] args)
         {
-            try
-            { 
-            string str = "";
-            bool b = Convert.ToBoolean(str);
-            Console.WriteLine(b);
-            }
-            catch (Exception)
+            while(true)
+           {
+            Console.WriteLine("what is your name? ");
+            string name = Console.ReadLine();
+            if (name == "")
             {
-                Console.WriteLine("ok");
+                Console.WriteLine("you have to write your name");
+                return;
             }
-           
-             
-           
-         
+            Console.WriteLine("hello :" + name);
+            }
         }
+
+
+    
     }
 }
