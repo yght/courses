@@ -1,2 +1,6 @@
 
 *.lock
+*.exe
+*.pdb
+*.exe
+*.cache

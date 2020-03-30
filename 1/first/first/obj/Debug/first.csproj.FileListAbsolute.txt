@@ -5,3 +5,9 @@ C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.
 C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.csproj.CoreCompileInputs.cache
 C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.exe
 C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.pdb
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\bin\Debug\first.exe.config
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\bin\Debug\first.exe
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\bin\Debug\first.pdb
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\obj\Debug\first.csprojResolveAssemblyReference.cache
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\obj\Debug\first.exe
+C:\Users\Yousof\Documents\GitHub\courses\1\first\first\obj\Debug\first.pdb
