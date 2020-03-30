@@ -10,8 +10,20 @@ namespace first
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Hello worlllld");
+            try
+            { 
+            string str = "";
+            bool b = Convert.ToBoolean(str);
+            Console.WriteLine(b);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("ok");
+            }
+           
+             
+           
+         
         }
     }
 }

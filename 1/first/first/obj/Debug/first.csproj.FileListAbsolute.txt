@@ -1,0 +1,7 @@
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\first.exe.config
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\first.exe
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\first.pdb
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.csprojAssemblyReference.cache
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.csproj.CoreCompileInputs.cache
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.exe
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\first.pdb
