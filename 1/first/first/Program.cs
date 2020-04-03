@@ -10,11 +10,17 @@ namespace first
     {
         static void Main(string[] args)
         {
+            int age;
             Console.WriteLine("how much do you have?");
-            string input = Console.ReadLine();
-           if (input.Length<=1)
+            age = Convert.ToInt32(Console.ReadLine());
+            if (age >= 10)
             {
-                Console.WriteLine("you are so kid");
+                Console.WriteLine("you are  kid");
+            }
+            else
+            {
+                Console.WriteLine("ok we;com to my programm");
+
             }
         }
 
