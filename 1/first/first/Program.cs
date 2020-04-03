@@ -10,8 +10,12 @@ namespace first
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("how old are you?");
-            string age = Console.ReadLine();
+            Console.WriteLine("how much do you have?");
+            string input = Console.ReadLine();
+           if (input.Length<=1)
+            {
+                Console.WriteLine("you are so kid");
+            }
         }
 
     }
