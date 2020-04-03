@@ -10,7 +10,8 @@ namespace first
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO");
+            Console.WriteLine("how old are you?");
+            string age = Console.ReadLine();
         }
 
     }
