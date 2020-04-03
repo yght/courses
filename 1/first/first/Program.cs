@@ -10,21 +10,13 @@ namespace first
     {
         static void Main(string[] args)
         {
-            int age;
-            // ENGLISH: HOW OLD ARE YOU?
-            Console.WriteLine("how much do you have?");
-            age = Convert.ToInt32(Console.ReadLine());
-            if (age >= 10)
-            {
-                // >10 you are KID!??!?!? if (age <10) you are kid
-                Console.WriteLine("you are  kid");
-            }
-            else
-            {
-                //Welocome to my program
-                Console.WriteLine("ok we;com to my programm");
-
-            }
+            int number2;
+            int number1;
+            Console.WriteLine("ok. i want to sup up two number for you.first write enter number");
+             number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("and number2 ?");
+            number2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("total =" + number1 + number2);
         }
 
     }
