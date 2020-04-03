@@ -12,7 +12,7 @@ namespace first
         {
             int number2;
             int number1;
-            Console.WriteLine("ok. i want to sup up two number for you.first write enter number");
+            Console.WriteLine("ok. i want to SUM  up two numberS for you. Enter your first number");
              number1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("and number2 ?");
             number2 = Convert.ToInt32(Console.ReadLine());
