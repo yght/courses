@@ -13,14 +13,14 @@ namespace first
         {
             int income;
             int tax;
-         
-            
+
+
             //it`s about tax
             Console.WriteLine("your monthly income?");
-           income=Convert.ToInt32 (Console.ReadLine());
-            if(income<=100)
+            income = Convert.ToInt32(Console.ReadLine());
+            if (income <= 100)
             {
-               
+
                 int a = income * 9 / 100;
                 int total;
                 total = income - a;
@@ -28,9 +28,10 @@ namespace first
                 Console.WriteLine("your tax is  " + a);
 
 
-                Console.WriteLine("and your total is "+total);
-             
-               
+                Console.WriteLine("and your total is " + total);
+                Console.WriteLine("enjoy");
+
+
             }
 
         }
