@@ -8,19 +8,30 @@ namespace first
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-
-            int age;
-            int total;
-            Console.WriteLine("i want to show to you haw many days you lived");
-            Console.WriteLine("how old are you?");
-            age = Convert.ToInt32(Console.ReadLine());
-          total=Console.WriteLine( 360 * age);
-
-
+            int income;
+            int tax;
+         
+            
+            //it`s about tax
+            Console.WriteLine("your monthly income?");
+           income=Convert.ToInt32 (Console.ReadLine());
+            if(income<=100)
+            {
                
-           
+                int a = income * 9 / 100;
+                int total;
+                total = income - a;
+
+                Console.WriteLine("your tax is  " + a);
+
+
+                Console.WriteLine("and your total is "+total);
+             
+               
+            }
 
         }
 
