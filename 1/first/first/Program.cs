@@ -10,13 +10,18 @@ namespace first
     {
         static void Main(string[] args)
         {
-            int number2;
-            int number1;
-            Console.WriteLine("ok. i want to SUM  up two numberS for you. Enter your first number");
-             number1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("and number2 ?");
-            number2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("total =" + number1 + number2);
+
+            int age;
+            int total;
+            Console.WriteLine("i want to show to you haw many days you lived");
+            Console.WriteLine("how old are you?");
+            age = Convert.ToInt32(Console.ReadLine());
+          total=Console.WriteLine( 360 * age);
+
+
+               
+           
+
         }
 
     }
