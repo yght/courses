@@ -12,6 +12,8 @@ namespace first
         static void Main(string[] args)
         {
             int income;
+
+            //this is never used
             int tax;
 
 
@@ -20,7 +22,7 @@ namespace first
             income = Convert.ToInt32(Console.ReadLine());
             if (income <= 100)
             {
-
+                //what is a? bad naming 
                 int a = income * 9 / 100;
                 int total;
                 total = income - a;
