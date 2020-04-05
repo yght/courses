@@ -11,30 +11,38 @@ namespace first
         
         static void Main(string[] args)
         {
-            int income;
+           
+            int number1;
+            int number2;
+            int apply;
+            Console.WriteLine("it is a Calculator");
+            Console.WriteLine("enter a number");
+            number1=Convert.ToInt32 (Console.ReadLine());
+            Console.WriteLine("secound number?");
+           number2= Convert.ToInt32( Console.ReadLine());
+            Console.WriteLine("if you enter 1: sup up , if enter2: Subtraction ,if enter3: split , if enter4: beat");
 
-            //this is never used
-            int tax;
-
-
-            //it`s about tax
-            Console.WriteLine("your monthly income?");
-            income = Convert.ToInt32(Console.ReadLine());
-            if (income <= 100)
+           apply = Convert.ToInt32( Console.ReadLine());
+            
+            if (apply == 1)
             {
-                //what is a? bad naming 
-                int a = income * 9 / 100;
-                int total;
-                total = income - a;
-
-                Console.WriteLine("your tax is  " + a);
-
-
-                Console.WriteLine("and your total is " + total);
-                Console.WriteLine("enjoy");
-
-
+               Console.WriteLine( number1 + number2);
             }
+            if (apply == 2)
+            {
+                Console.WriteLine(number1 - number2);
+            }
+            if (apply == 3)
+            {
+                Console.WriteLine(number1 / number2);
+            }
+            if (apply == 4)
+            {
+                Console.WriteLine(number1 * number2);
+            }
+
+
+
 
         }
 
