@@ -40,6 +40,10 @@ namespace first
             {
                 Console.WriteLine(number1 * number2);
             }
+            else
+            {
+                Console.WriteLine("you have to enter 1 until 4");
+            }
 
 
 
