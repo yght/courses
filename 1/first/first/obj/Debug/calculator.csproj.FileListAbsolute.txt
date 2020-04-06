@@ -1,0 +1,7 @@
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\calculator.exe.config
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\calculator.exe
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\bin\Debug\calculator.pdb
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\calculator.exe
+C:\Users\Khorshid\Documents\SourceCode\C#\courses\1\first\first\obj\Debug\calculator.pdb
