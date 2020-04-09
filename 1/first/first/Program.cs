@@ -11,10 +11,41 @@ namespace calculator
 
         static void Main(string[] args)
         {
-           for(int i=0; i <=10;i++)
+            int numbers;
+            Console.WriteLine("welcome which food do you like to eat? ");
+            Console.WriteLine("meat = $10");
+            Console.WriteLine("rice = $12");
+            Console.WriteLine("fish = $15");
+            string input=Console.ReadLine();
+            Console.WriteLine("how many  " + input + " do you want?");
+             numbers =Convert.ToInt32( Console.ReadLine());
+
+            if (input == "meat")
             {
-                Console.WriteLine(i);
+                int tax = 10 * numbers * 8 / 100;
+                Console.WriteLine(tax);
+                Console.WriteLine("total = " + tax + 10 * numbers);
             }
+
+            if (input == "fish")
+            {
+                int tax = 15 * numbers * 8 / 100;
+                Console.WriteLine(tax);
+                Console.WriteLine("total = " + tax + 15 * numbers);
+            }
+
+            if (input == "rice")
+            {
+                int tax = 12 * numbers * 8 / 100;
+                Console.WriteLine(tax);
+                Console.WriteLine("total = " + tax + 12 * numbers);
+            }
+
+
+
+
+
+
         }
 
 
